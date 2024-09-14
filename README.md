@@ -7,8 +7,11 @@ Include spring-boot-starter-data-jpa and mysql-connector-java dependencies in po
 Configure your connection in application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/your_db
+
 spring.datasource.username=root
+
 spring.datasource.password=password
+
 spring.jpa.hibernate.ddl-auto=update
 
 3. Entity Class
