@@ -61,7 +61,7 @@ public class BikeController {
 	//delete bike
 	@DeleteMapping(value= "{regNumber}")
 	public String deleteBikeregNumber(@PathVariable String regNumber) {
-		System.out.println("Hello World");
+	
 		return bikeService.DeleteBike(regNumber);
 	}
 	
